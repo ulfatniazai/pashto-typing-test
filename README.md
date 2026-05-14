@@ -1,2 +1,18 @@
-# pashto-typing-test
-A modern and responsive Pashto typing speed test web application built using HTML, CSS, and JavaScript. It provides real-time typing speed (WPM), accuracy calculation, and text completion tracking with a clean UI and visual result graphs. The project includes multiple timer modes and a dynamic result dashboard for performance analysis.
+# Pashto Typing Test
+
+A modern Pashto typing speed test website built using HTML, CSS, and JavaScript.
+
+## Features
+
+- Typing speed test
+- Accuracy calculation
+- Text completion progress
+- Modern UI
+- Responsive design
+- Beautiful graphs
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript

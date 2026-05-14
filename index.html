@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ps">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Pashto Typing Test</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- TOP -->
+
+        <div class="top">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-keyboard"></i>
+
+                <span>Pashto Typing</span>
+
+            </div>
+
+            <div class="timer-buttons">
+
+                <button class="time active"
+                data-time="15">
+                    15
+                </button>
+
+                <button class="time"
+                data-time="30">
+                    30
+                </button>
+
+                <button class="time"
+                data-time="60">
+                    60
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- STATS -->
+
+        <div class="stats">
+
+            <div>
+                <i class="fa-regular fa-clock"></i>
+                <span id="timer">15</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-bolt"></i>
+                <span id="wpm">0</span> WPM
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crosshairs"></i>
+                <span id="accuracy">100</span>%
+            </div>
+
+        </div>
+
+        <!-- TYPING AREA -->
+
+        <div class="typing-area"
+        id="typingArea"></div>
+
+        <!-- INPUT -->
+
+        <input type="text"
+        id="hiddenInput"
+        autofocus>
+
+        <!-- RESULT -->
+
+        <div class="result hidden"
+        id="resultBox"></div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
